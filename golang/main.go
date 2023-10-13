@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"producer"
+	"github.com/dveselka/kafka-producer/golang/producer"
 )
 
 func main() {
