@@ -1,9 +1,9 @@
-package main
+package producer
 
 import (
 	"log"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 )
 
 const (
@@ -14,7 +14,7 @@ const (
 	KafkaTopic = "test-topic"
 )
 
-func main() {
+func Produce() {
 	// create prodcuer
 	producer, err := sarama.NewSyncProducer([]string{KafkaConnectionString}, nil)
 
