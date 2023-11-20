@@ -8,6 +8,6 @@ import (
 
 func main() {
 	// send message to Kafka
-	message := producer.Produce()
+	message := Producer.Produce()
 	fmt.Println(message)
 }

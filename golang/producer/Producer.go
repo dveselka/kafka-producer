@@ -1,4 +1,4 @@
-package producer
+package Producer
 
 import (
 	"log"
